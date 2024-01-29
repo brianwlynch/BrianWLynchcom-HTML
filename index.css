@@ -1,3 +1,63 @@
+.navigation-links-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.navigation-links-navlink {
+  color: var(--dl-color-primary-orange);
+  text-decoration: none;
+}
+.navigation-links-navlink1 {
+  color: var(--dl-color-primary-orange);
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.navigation-links-navlink2 {
+  color: var(--dl-color-primary-orange);
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navigation-links-root-class-name12 {
+  margin-top: var(--dl-space-space-halfunit);
+}
+.navigation-links-root-class-name13 {
+  margin-top: var(--dl-space-space-halfunit);
+}
+.navigation-links-root-class-name14 {
+  margin-top: var(--dl-space-space-halfunit);
+}
+@media(max-width: 767px) {
+  .navigation-links-nav {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .navigation-links-navlink {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-navlink1 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-navlink2 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
+
 .home-container {
   width: 100%;
   display: flex;
@@ -82,6 +142,16 @@
   fill: var(--dl-color-primary-orange);
   width: 24px;
   height: 24px;
+  margin-right: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.home-link5 {
+  display: contents;
+}
+.home-icon10 {
+  fill: var(--dl-color-primary-orange);
+  width: 24px;
+  height: 24px;
   text-decoration: none;
 }
 .home-separator {
@@ -133,7 +203,7 @@
   padding-bottom: var(--dl-space-space-twounits);
   justify-content: space-between;
 }
-.home-text11 {
+.home-text20 {
   color: var(--dl-color-primary-orange);
 }
 @media(max-width: 991px) {
@@ -182,7 +252,7 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .home-text11 {
+  .home-text20 {
     text-align: center;
     margin-left: var(--dl-space-space-unit);
     margin-right: var(--dl-space-space-unit);
@@ -219,7 +289,7 @@
     padding: var(--dl-space-space-unit);
     flex-direction: column;
   }
-  .home-text11 {
+  .home-text20 {
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-unit);
