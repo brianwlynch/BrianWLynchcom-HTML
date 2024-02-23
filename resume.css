@@ -192,74 +192,6 @@
   }
 }
 
-.under-construction-container {
-  width: 100%;
-  height: auto;
-  display: flex;
-  position: relative;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.under-construction-construction {
-  width: 100%;
-  display: flex;
-  padding: var(--dl-space-space-threeunits);
-  align-items: center;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.under-construction-text {
-  color: var(--dl-color-primary-black);
-  font-size: 3rem;
-  text-align: center;
-  font-family: "CerebriSans-Bold";
-}
-.under-construction-text1 {
-  color: var(--dl-color-primary-black);
-  max-width: var(--dl-size-size-maxwidth);
-  text-align: center;
-  font-family: "TextaNarrow";
-}
-.under-construction-navlink {
-  color: var(--dl-color-primary-white);
-  margin-top: var(--dl-space-space-oneandhalfunits);
-  transition: 0.3s;
-  font-family: "TextaNarrow";
-  padding-top: var(--dl-space-space-unit);
-  padding-left: var(--dl-space-space-twounits);
-  padding-right: var(--dl-space-space-twounits);
-  padding-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-  background-color: var(--dl-color-primary-black);
-}
-.under-construction-navlink:hover {
-  transform: scale(1.02);
-}
-
-@media(max-width: 991px) {
-  .under-construction-text1 {
-    max-width: 100%;
-  }
-}
-@media(max-width: 767px) {
-  .under-construction-construction {
-    padding-left: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-twounits);
-  }
-  .under-construction-text1 {
-    padding-left: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-unit);
-  }
-}
-@media(max-width: 479px) {
-  .under-construction-construction {
-    padding-top: var(--dl-space-space-twounits);
-    padding-left: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-unit);
-    padding-bottom: var(--dl-space-space-twounits);
-  }
-}
-
 .footer-container {
   width: 100%;
   height: auto;
@@ -296,12 +228,15 @@
   }
 }
 
-.about-container {
+.resume-container {
   width: 100%;
   display: flex;
   overflow: auto;
   min-height: 100vh;
   align-items: center;
   flex-direction: column;
-  background-color: var(--dl-color-primary-white);
+  justify-content: flex-start;
+}
+.resume-container2 {
+  display: contents;
 }
